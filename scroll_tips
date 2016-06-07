@@ -1,0 +1,11 @@
+// Hide scrolling in Firefox 
+#div_name {
+overflow:-moz-scrollbars-none;
+}
+
+// remove scroll based on media query
+ @media and (min-height: 500px){
+ body {
+overflow:-moz-scrollbars-none;
+ }
+}
