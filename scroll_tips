@@ -1,7 +1,20 @@
+/* Hide scrollbar */
+::-webkit-scrollbar {
+display: none;
+}
+ ::-o-scrollbar {
+display: none;
+}
+ ::-moz-scrollbar {
+display: none;
+}
+
+
 /* Hide scrolling in Firefox */
 #div_name {
 overflow:-moz-scrollbars-none;
 }
+
 
 /* remove scroll based on media query */
 @media and (min-height: 500px){
