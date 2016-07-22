@@ -1,0 +1,15 @@
+/* CSS */
+.container{
+position: relative;
+width: 100%;
+}
+#header{
+// header code
+}
+#content{
+// content code
+}
+#footer{
+position: absolute;
+bottom: 0!important;
+}
