@@ -13,3 +13,14 @@ width: 100%;
 position: absolute;
 bottom: 0!important;
 }
+
+<--HTML-->
+
+<div id="container">
+  <div id="header">
+  </div>
+  <div id="content">
+  </div>
+  <div id="footer">
+  </div>
+</div>
