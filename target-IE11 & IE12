@@ -1,0 +1,6 @@
+
+    @media all and (-ms-high-contrast:none)
+     {
+     .div_name { color: green } /* IE10 */
+     *::-ms-backdrop, .div_name { color: red } /* IE11 */
+     }
