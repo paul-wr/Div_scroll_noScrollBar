@@ -1,0 +1,102 @@
+/* IE8 Only */
+.myClass  { 
+     color:red\0/; 
+     padding:70px\0/;
+}
+
+/* IE 6 Only */
+* html .myClass {
+	...
+} 
+
+/* All except IE6 standards */
+.myClass { 
+	property /**/: value; 
+} 
+
+/* Firefox & IE 7, и выше */
+html>body .myClass {
+    ...
+}
+
+/* Modern browsers only (not IE 7) */
+html>/**/body .myClass {
+	...
+}
+
+/* IE 7 Only */
+*:first-child+html .myClass {
+   ...
+}
+
+/* Firefox Only */
+@-moz-document url-prefix() {
+	.myClass {
+		...
+	}
+}
+
+/* Opera Only */
+noindex:-o-prefocus, .MyClass {
+	color:red;
+}
+
+/* IE7 Only */
+div[class^="myClass"] .myClass2 { 
+	...
+}
+
+/* IE7 only */
+*+html .myClass { 
+	...
+} 
+
+/* hack for Opera <=9 */
+html:first-child .myClass {
+	...
+} 
+
+/* Firefox, Opera, Konqueror, Safari */
+*|html .myClass { 
+	...
+}
+
+/* IE8 beta 2 only (?)*/
+html:first-child .myClass [attr|=a-b] { 
+	...
+} 
+
+/* IE5/Mac only */
+/*\*//*/ .myClass { property: value; } /**/ 
+
+/* Gecko only */
+.myClass:not([attr*=""]) { 
+	...
+} 
+
+/* Opera < 9.5 only */
+@media all and (min-width: 0px) { 
+	html:first-child .myClass { 
+		...
+	} 
+} 
+
+/* Safari only */
+.myClass:not(:root:root) { 
+	...
+} 
+
+/* Safari 3.0 and Chrome only */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .myClass {
+             ....
+    }
+}
+
+/* Chrome browser  */
+body:nth-of-type(1) .myClass {
+       ...
+}
+
+/* Safari browser  css hack */
+body:first-of-type .myClass {property:value;}
