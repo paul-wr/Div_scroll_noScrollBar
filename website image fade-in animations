@@ -1,0 +1,11 @@
+
+img {
+   -webkit-animation: myfirst 1s ; /* Chrome, Safari, Opera */
+    animation: myfirst 1s ;
+}
+ /* Chrome, Safari, Opera */
+  @-webkit-keyframes myfirst {
+    from {opacity: 0.2;}
+    to {opacity: 1;}
+  }
+  
