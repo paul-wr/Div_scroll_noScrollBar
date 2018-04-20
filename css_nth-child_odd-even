@@ -1,0 +1,55 @@
+===============================
+Odd/even nth-child programming
+===============================
+<style type="text/css">
+  body {
+  	font-family: Arial;
+  }
+
+  ol, ul, #ol-odd, #ul-even {
+  	width: 500px;
+  	margin:0 auto;
+  	position: relative;
+  }
+
+  ol li, ul li {
+  	padding: 5px;
+  	background-color: #00aced;
+  	color: #fff;
+  	margin: 2px;
+  }
+
+  ol li:nth-child(odd) {
+  	background-color: green;
+  	color: #fff;  	
+  }
+
+  ul li:nth-child(even) {
+  	background-color: #1d3d91;
+  }
+ 
+  </style>
+
+
+</head>
+
+<body>
+<h1>Even/Odd child element test</h1>
+<div id="ol-odd">
+<h3>Ordered List with Odd CSS nth-child programming</h3>	
+<ol>
+	<li>First</li>
+	<li>Second</li>
+	<li>Third</li>
+	<li>Fourth</li>	
+</ol>
+</div>
+
+<div id="ul-even">
+<h3>Unordered List with Even CSS nth-child programming</h3>	
+<ul>
+	<li>First</li>
+	<li>Second</li>
+	<li>Third</li>
+	<li>Fourth</li>	
+</ul>
