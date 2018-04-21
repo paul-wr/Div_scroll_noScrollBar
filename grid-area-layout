@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <title>Gird Layout Test</title>
+  <style type="text/css">
+  body {
+  	font-family: Arial;
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "nav section aside"
+    "footer footer footer";
+    grid-template-rows: 120px 1fr 100px;
+    grid-template-columns: 15% 1fr 18%;
+    grid-gap: 7px;
+    height: 97vh;
+    margin: 10px;
+  }
+
+  header, nav, section, aside, footer {
+    padding: 5px;
+  }
+
+  header {
+    background-color: green;
+    grid-area: header;
+  }
+
+  nav {
+    background-color: lightBlue;
+    grid-area: nav;
+  }
+
+  section {
+    background-color: #e2e2e2;
+    grid-area: section;
+
+  }
+
+  aside {
+    background-color: #1d3d91;
+    grid-area: aside;
+  }
+
+  footer {
+    background-color: blue;
+    grid-area: footer;
+  }
+
+
+
+ 
+  </style>
+
+
+</head>
+
+<body>
+<header>Header</header>
+<nav>Nav</nav>
+<section>Section</section>
+<aside>Aside</aside>
+<footer>Footer</footer>
+</body>
+</html>
